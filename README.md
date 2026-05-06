@@ -28,11 +28,11 @@ The model was rigorously evaluated to ensure high recall across minority classes
 *(Note: Replace this text with the image of your Matplotlib Loss/Accuracy curves)*
 `![Learning Curves](results/learning_curves.png)`
 
-*(Note: Replace this text with the image of your Matplotlib `show_predictions` grid)*
-`![Prediction Samples](results/prediction_samples.png)`
 
-*(Note: Replace this text with the image of your Confusion Matrix)*
-`![Confusion Matrix](results/confusion_matrix.png)`
+![Prediction Samples](results/prediction_samples.png)
+
+
+![Confusion Matrix](results/confusion_matrix.png)
 
 ## How to Run
 
