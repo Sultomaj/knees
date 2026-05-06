@@ -25,8 +25,7 @@ While raw accuracy is a standard metric in machine learning, this pipeline was e
 ## Model Evaluation & Performance
 The model was rigorously evaluated to ensure high recall across minority classes, specifically addressing the overlapping visual features between intermediate osteoarthritis severity levels. 
 
-*(Note: Replace this text with the image of your Matplotlib Loss/Accuracy curves)*
-`![Learning Curves](results/learning_curves.png)`
+![Learning Curves](results/learning_curves.png)
 
 
 ![Prediction Samples](results/prediction_samples.png)
@@ -42,7 +41,7 @@ The model was rigorously evaluated to ensure high recall across minority classes
 2. **Download the Dataset:**
    ```bash
    import kagglehub
-kagglehub.dataset_download("fuyadhasanbhoyan/knee-osteoarthritis-classification-224224")
+   kagglehub.dataset_download("fuyadhasanbhoyan/knee-osteoarthritis-classification-224224")
 3. **Train the Model:**
    ``` bash
     python3 train.py
