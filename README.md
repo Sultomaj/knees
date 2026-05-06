@@ -25,16 +25,13 @@ The model was rigorously evaluated to ensure high recall across minority classes
 *   **Class 2 (Osteoporosis):** 75.28%
 
 ### Learning Curves
-*(Note: Replace this text with the image of your Matplotlib Loss/Accuracy curves)*
-`![Learning Curves](results/learning_curves.png)`
+![Learning Curves](results/learning_curves.png)
 
 ### Prediction Samples
-*(Note: Replace this text with the image of your Matplotlib `show_predictions` grid)*
-`![Prediction Samples](results/prediction_samples.png)`
+![Prediction Samples](results/prediction_samples.png)
 
 ### Confusion Matrix
-*(Note: Replace this text with the image of your Confusion Matrix)*
-`![Confusion Matrix](results/confusion_matrix.png)`
+![Confusion Matrix](results/confusion_matrix.png)
 
 ## How to Run
 
