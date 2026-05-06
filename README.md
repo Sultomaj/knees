@@ -19,10 +19,10 @@ This repository contains the architecture and training pipeline for a medical di
 The model was rigorously evaluated to ensure high recall across minority classes, specifically addressing the overlapping visual features between intermediate osteoarthritis severity levels. 
 
 **Final Metrics:**
-*   **Overall Test Accuracy:** 81.3%
-*   **Class 0 (Normal):** 78.61%
-*   **Class 1 (Osteopenia):** 81.94%
-*   **Class 2 (Osteoporosis):** 75.28%
+*   **Overall Test Accuracy:** 81.67%
+*   **Class 0 (Normal):** 71.94%
+*   **Class 1 (Osteopenia):** 78.06%
+*   **Class 2 (Osteoporosis):** 78.89%
 
 ### Learning Curves
 ![Learning Curves](results/learning_curves.png)
