@@ -25,12 +25,13 @@ While raw accuracy is a standard metric in machine learning, this pipeline was e
 ## Model Evaluation & Performance
 The model was rigorously evaluated to ensure high recall across minority classes, specifically addressing the overlapping visual features between intermediate osteoarthritis severity levels. 
 
+## Loss Curve
 ![Learning Curves](results/learning_curves.png)
 
-
+## Prediction Samplea
 ![Prediction Samples](results/prediction_samples.png)
 
-
+## Confsion Matrix
 ![Confusion Matrix](results/confusion_matrix.png)
 
 ## How to Run
