@@ -39,3 +39,10 @@ The model was rigorously evaluated to ensure high recall across minority classes
 1. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
+2. **Download the Dataset:**
+   ```bash
+   import kagglehub
+kagglehub.dataset_download("fuyadhasanbhoyan/knee-osteoarthritis-classification-224224")
+3. **Train the Model:**
+   ``` bash
+    python3 train.py
