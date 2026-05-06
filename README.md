@@ -33,6 +33,14 @@ The model was rigorously evaluated to ensure high recall across minority classes
 ### Confusion Matrix
 ![Confusion Matrix](results/confusion_matrix.png)
 
+### 🔬 Clinical & Research Highlights
+
+While raw accuracy is a standard metric in machine learning, this pipeline was explicitly engineered with **clinical safety** and **physiological reality** in mind.
+
+* **Prioritizing Patient Safety (Minimizing False Negatives):** In medical diagnostics, the cost of a false negative far outweighs a false positive. Through iterative tuning, this model was optimized to aggressively catch severe Osteoporosis. We intentionally traded a fraction of overall accuracy to drastically reduce the critical risk of missing advanced joint deterioration.
+* **Physiologically Sound Augmentations:** The data pipeline strictly avoids destructive spatial transforms (such as heavy random rotations) that artificially distort the horizontal joint space. Instead, it relies on structure-preserving augmentations to ensure the network learns true clinical biomarkers rather than orientation artifacts.
+* **Transparent Evaluation & Next Steps:** The included confusion matrices were generated to evaluate ordinal progression errors. The data clearly isolates the model's remaining blind spots, providing a precise roadmap for future research iterations (such as implementing ordinal-weighted loss functions to heavily penalize multi-stage misclassifications).
+
 ## How to Run
 
 1. **Install Dependencies:**
