@@ -1,0 +1,9 @@
+{
+    "final_test_accuracy_percent": 81.67,
+    "best_val_accuracy_percent": 77.78,
+    "per_class_accuracy_percent": {
+        "Class_0": 71.94,
+        "Class_1": 78.06,
+        "Class_2": 78.89
+    }
+}
